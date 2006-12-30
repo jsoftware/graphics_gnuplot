@@ -1,0 +1,48 @@
+NB. project file: /home/chris/deb/addons/graphics/gnuplot/gnuplot
+
+coclass 'jproject'
+
+PRIMARYFILES=: 0 : 0
+~Addons/graphics/gnuplot/init
+~Addons/graphics/gnuplot/defs
+~Addons/graphics/gnuplot/util
+~Addons/graphics/gnuplot/main
+~Addons/graphics/gnuplot/run
+~Addons/graphics/gnuplot/zdef
+)
+
+PRIMARYLIBS=: ''
+
+DEVFILES=: ''
+
+DEVLIBS=: ''
+
+OTHERFILES=: 0 : 0
+~Addons/graphics/gnuplot/changes.txt
+~Addons/graphics/gnuplot/gnuplot.txt
+~Addons/graphics/gnuplot/gpdemo.ijs
+~Addons/graphics/gnuplot/manifest.ijs
+~Addons/graphics/gnuplot/test0.ijs
+)
+
+TARGETFILE=: '~Addons/graphics/gnuplot/gnuplot.ijs'
+
+TARGETLOCALE=: 'pgnuplot'
+
+TARGETHEADER=: ''
+
+TARGETEXTRA=: ''
+
+BUILDOPTS=: 0 1 0 0 0 0 0
+
+PREBUILDFILE=: ''
+
+POSTBUILDFILE=: '~Addons/graphics/gnuplot/save.ijs'
+
+TESTFILE=: '~Addons/graphics/gnuplot/test.ijs'
+
+NOTES=: ''
+
+VERSION=: ''
+
+WINDOWS=: ''
