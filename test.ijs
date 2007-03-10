@@ -1,3 +1,4 @@
+NB. test
 
 buildapp_jproject_ 1
 load 'graphics/gnuplot'
