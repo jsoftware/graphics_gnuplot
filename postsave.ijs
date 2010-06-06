@@ -1,6 +1,3 @@
-NB. save
-
-writesourcex_jp_ '~Addons/graphics/gnuplot';'~Addons/graphics/gnuplot/gnuplot.ijs'
 
 FM=: jpath '~Addons/graphics/gnuplot/'
 TO=: jpath '~addons/graphics/gnuplot/'
