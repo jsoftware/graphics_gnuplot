@@ -1,3 +1,6 @@
+NB. init
+
+coclass 'pgnuplot'
 NB. gnuplot
 NB.
 NB. Supports creating gnuplot plot files from J.
