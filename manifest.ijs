@@ -12,7 +12,7 @@ The original script was contributed by L. Fraser Jackson.
 
 VERSION=: '1.0.0'
 
-RELEASE=: 'j601 j602 j701'
+RELEASE=: 'j601 j602 701'
 
 FILES=: 0 : 0
 gnuplot.ijs
