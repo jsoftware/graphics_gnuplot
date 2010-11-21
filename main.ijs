@@ -6,7 +6,7 @@ gnuplot=: 4 : 0
 'cmd dat'=. y
 
 NB. ---------------------------------------------------------
-if. IFWIN32 do.
+if. IFWIN do.
   'exe ini'=. getbinfiles''
 else.
   exe=. 'gnuplot'
@@ -36,7 +36,7 @@ txt=. txt, x gpcommand cmd;shp;fdat
 txt 1!:2 <fplt
 
 NB. ---------------------------------------------------------
-if. IFWIN32 *. 0 < #exe do.
+if. IFWIN *. 0 < #exe do.
   wd 'winexec *"',exe,'" "',fplt,'" -'
 else.
   gphost exe,' "',fplt,'" -'
