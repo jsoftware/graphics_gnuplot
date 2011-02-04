@@ -1,4 +1,6 @@
-NB. built from project: ~Addons/graphics/gnuplot/gnuplot
+NB. init
+
+coclass 'pgnuplot'
 NB. gnuplot
 NB.
 NB. Supports creating gnuplot plot files from J.
@@ -14,9 +16,6 @@ NB.
 NB.    load 'graphics/gnuplot/gpdemo.ijs'
 NB.
 NB.    gp1''
-
-coclass 'pgnuplot'
-
 
 NB. =========================================================
 NB.*GNUPLOTBIN n gnuplot bin directory (under Windows)
@@ -37,7 +36,6 @@ GNUPLOTOUT=: jpath '~temp\'
 NB. =========================================================
 NB. gnuplot command buffer
 SETBUFFER=: ''
-
 NB. defs
 
 NB. =========================================================
@@ -117,8 +115,6 @@ linespoints
 points
 steps
 )
-
-
 NB. gnuplot utils
 
 deb=: #~ (+. 1: |. (> </\))@(' '&~:)
@@ -214,8 +210,6 @@ y 1!:2 <f
 2!:0 f
 1!:55 <f
 )
-
-
 
 NB. gplot main functions
 
@@ -342,8 +336,6 @@ dat=. gpflatten x
 dat=. '-' (I. dat='_') } dat
 dat 1!:2 boxopen y
 )
-
-
 NB. run
 
 NB. =========================================================
@@ -359,8 +351,6 @@ gsplot=: 3 : 0
 :
 's' gnuplot x;<y
 )
-
-
 
 NB. zdef
 NB.
@@ -397,4 +387,3 @@ NB.    gset 'grid'
 NB.    gset 'title "sin(exp) vs cos(exp)"'
 NB.    gplot mydata
 gset_z_=: gset_pgnuplot_
-
