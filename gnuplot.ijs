@@ -1,5 +1,7 @@
 NB. init
 
+require' task'
+
 coclass 'pgnuplot'
 NB. gnuplot
 NB.
@@ -250,7 +252,7 @@ txt 1!:2 <fplt
 
 NB. ---------------------------------------------------------
 if. IFWIN *. 0 < #exe do.
-  wd 'winexec *"',exe,'" "',fplt,'" -'
+  fork_jtask_ '"',exe,'" "',fplt,'" -'
 else.
   gphost exe,' "',fplt,'" -'
 end.

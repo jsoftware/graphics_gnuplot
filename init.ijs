@@ -1,5 +1,7 @@
 NB. init
 
+require' task'
+
 coclass 'pgnuplot'
 NB. gnuplot
 NB.
