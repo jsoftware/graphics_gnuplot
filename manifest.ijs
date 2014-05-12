@@ -18,3 +18,4 @@ FILES=: 0 : 0
 gnuplot.ijs
 gpdemo.ijs
 )
+PLATFORMS=: 'linux win darwin android'
