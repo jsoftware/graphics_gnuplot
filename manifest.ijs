@@ -10,7 +10,7 @@ This works with gnuplot V4.0 or later, and may work with earlier versions.
 The original script was contributed by L. Fraser Jackson.
 )
 
-VERSION=: '1.0.1'
+VERSION=: '1.0.2'
 
 RELEASE=: 'j802'
 
