@@ -10,9 +10,9 @@ This works with gnuplot V4.0 or later, and may work with earlier versions.
 The original script was contributed by L. Fraser Jackson.
 )
 
-VERSION=: '1.0.2'
+VERSION=: '1.0.3'
 
-RELEASE=: 'j802'
+RELEASE=: 'j802 j803'
 
 FILES=: 0 : 0
 gnuplot.ijs
