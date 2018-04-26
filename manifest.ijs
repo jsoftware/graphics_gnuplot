@@ -12,7 +12,9 @@ The original script was contributed by L. Fraser Jackson.
 
 VERSION=: '1.0.7'
 
-RELEASE=: 'j802 j803 j804 j805 j806 j807'
+RELEASE=: ''
+
+FOLDER=: 'graphics/gnuplot'
 
 FILES=: 0 : 0
 gnuplot.ijs
